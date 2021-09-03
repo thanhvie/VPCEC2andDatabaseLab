@@ -1,0 +1,3 @@
+sudo su 
+yum install mysql
+mysql -h <<INSERT DB ENDPOINT HERE>> -P 3306 -u mysqltest -p
